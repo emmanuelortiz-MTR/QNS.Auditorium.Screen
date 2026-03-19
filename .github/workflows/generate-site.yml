@@ -1,36 +1,36 @@
 name: Generate Projector Guide Site
 
-# Triggers the workflow on push to the main branch
 on:
   push:
     branches: [ main ]
-  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 jobs:
   build:
     runs-on: ubuntu-latest
-    
     steps:
-      # Step 1: Check out the repository code
       - name: Checkout repository
-        uses: actions/checkout@v3
-        
-      # Step 2: Set up Python
+        uses: actions/checkout@v4   # updated to v4
+
       - name: Set up Python
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5   # updated to v5
         with:
-          python-version: '3.x'  # Uses latest Python 3
-          
-      # Step 3: Run the generator script
+          python-version: '3.x'
+
+      - name: List files for debugging
+        run: ls -la
+
       - name: Run generate.py
         run: python generate.py
-        
-      # Step 4: Commit and push the updated output folder
-      - name: Commit changes
+
+      - name: Commit and push changes
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
           git add output/
-          git diff --quiet && git diff --staged --quiet || git commit -m "Auto-update generated site"
-          git push
+          if ! git diff --quiet && git diff --staged --quiet; then
+            git commit -m "Auto-update generated site"
+            git push
+          else
+            echo "No changes to commit"
+          fi
