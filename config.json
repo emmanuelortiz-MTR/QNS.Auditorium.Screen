@@ -1,0 +1,46 @@
+{
+  "options": [
+    {
+      "id": "start",
+      "title": "Bring down the screen",
+      "steps": [
+        {
+          "instruction": "First, locate the control panel on the wall near the projector.",
+          "image": "panel.jpg",
+          "alt": "Control panel"
+        },
+        {
+          "instruction": "Press the 'Screen Down' button.",
+          "image": "screen_down_button.jpg",
+          "alt": "Screen down button"
+        },
+        {
+          "instruction": "Wait for the screen to fully extend, then press the 'Projector On' button.",
+          "image": "projector_on.jpg",
+          "alt": "Projector on button"
+        }
+      ]
+    },
+    {
+      "id": "shutdown",
+      "title": "Shut down the projector",
+      "steps": [
+        {
+          "instruction": "Locate the remote or control panel.",
+          "image": "remote.jpg",
+          "alt": "Remote control"
+        },
+        {
+          "instruction": "Press the 'Power' button twice to turn off the projector.",
+          "video": "power_button.mp4",
+          "alt": "Power button video"
+        },
+        {
+          "instruction": "Wait for the projector to cool down, then press 'Screen Up'.",
+          "image": "screen_up.jpg",
+          "alt": "Screen up button"
+        }
+      ]
+    }
+  ]
+}
