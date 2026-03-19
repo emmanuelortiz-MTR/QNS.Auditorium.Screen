@@ -2,23 +2,42 @@
   "options": [
     {
       "id": "start",
-      "title": "Bring down the screen",
+      "title": "Locate the Panel for the Auditorium Projector",
       "steps": [
         {
-          "instruction": "First, locate the control panel on the wall near the projector.",
-          "image": "panel.jpg",
-          "alt": "Control panel"
+          "instruction": "You can find the control panel behind the reception desk in one of the closets.",
+          "video_url": "https://drive.google.com/file/d/1O_q7QW_XpX8RuvZSOFkSyLfQ-sMHunj_/view?usp=sharing",
+          "alt": "Video showing where the control panel is"
         },
         {
-          "instruction": "Press the 'Screen Down' button.",
-          "image": "screen_down_button.jpg",
-          "alt": "Screen down button"
+          "instruction": "Let's start from scratch, make sure the system is off",
+          "image": "Panel.Off.Switch.JPG",
+          "alt": "Panel Off Switch location"
         },
         {
-          "instruction": "Wait for the screen to fully extend, then press the 'Projector On' button.",
-          "image": "projector_on.jpg",
-          "alt": "Projector on button"
-        }
+          "instruction": "On this next screen, confirm that the system is off.",
+          "image": "Panel.Off.Switch.CONFIRM.JPG",
+          "alt": "Panel Off Switch Confirmation"
+        },
+        {
+          "instruction": "Now, let's pull the Auditorium scrim down. Select the 'Wall Plate' option from the screen on the panel.",
+          "image": "Panel.Wallplate.JPG",
+          "alt": "Panel Wallplate Button Location"
+        },
+        {
+          "instruction": "Voila! The scrim should now begin coming down in the Auditorium.",
+          "video_url": "https://drive.google.com/file/d/1RRPvPFicNgeJ5kug4vsSM27T6lO8QQWB/view?usp=sharing",
+          "alt": "Video showing the scrim coming down"
+        },
+        {
+          "instruction": "Now to control the computer connected, you must find the Auditorium Keyboard.",
+          "image": "Auditorium.keyboard.JPG",
+          "alt": "Auditorium Keyboard Pic"
+        },
+        {
+          "instruction": "Typically, the keyboard floats around the kitchen area of the second floor. Look for it somewhere in the following area.",
+          "image": "Auditorium.keyboard.location.JPG",
+          "alt": "Auditorium Keyboard Location"
       ]
     },
     {
