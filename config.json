@@ -39,25 +39,6 @@
           "image": "Auditorium.keyboard.location.JPG",
           "alt": "Auditorium Keyboard Location"
       ]
-    },
-    {
-      "id": "shutdown",
-      "title": "Shut down the projector",
-      "steps": [
-        {
-          "instruction": "Locate the remote or control panel.",
-          "image": "remote.jpg",
-          "alt": "Remote control"
-        },
-        {
-          "instruction": "Press the 'Power' button twice to turn off the projector.",
-          "video": "power_button.mp4",
-          "alt": "Power button video"
-        },
-        {
-          "instruction": "Wait for the projector to cool down, then press 'Screen Up'.",
-          "image": "screen_up.jpg",
-          "alt": "Screen up button"
         }
       ]
     }
