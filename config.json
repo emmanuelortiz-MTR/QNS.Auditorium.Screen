@@ -2,42 +2,87 @@
   "options": [
     {
       "id": "start",
-      "title": "Locate the Panel for the Auditorium Projector",
+      "title": {
+        "en": "Locate the Panel for the Auditorium Projector",
+        "es": "Localice el panel para el proyector del auditorio"
+      },
       "steps": [
         {
-          "instruction": "You can find the control panel behind the reception desk in one of the closets.",
+          "instruction": {
+            "en": "You can find the control panel behind the reception desk in one of the closets.",
+            "es": "Puede encontrar el panel de control detrás del mostrador de recepción en uno de los armarios."
+          },
           "video_url": "https://drive.google.com/file/d/1O_q7QW_XpX8RuvZSOFkSyLfQ-sMHunj_/view?usp=sharing",
-          "alt": "Video showing where the control panel is"
+          "alt": {
+            "en": "Video showing where the control panel is",
+            "es": "Video que muestra dónde está el panel de control"
+          }
         },
         {
-          "instruction": "Let's start from scratch, make sure the system is off",
+          "instruction": {
+            "en": "Let's start from scratch, make sure the system is off",
+            "es": "Comencemos desde cero, asegurémonos de que el sistema esté apagado"
+          },
           "image": "Panel.Off.Switch.JPG",
-          "alt": "Panel Off Switch location"
+          "alt": {
+            "en": "Panel Off Switch location",
+            "es": "Ubicación del interruptor de apagado del panel"
+          }
         },
         {
-          "instruction": "On this next screen, confirm that the system is off.",
+          "instruction": {
+            "en": "On this next screen, confirm that the system is off.",
+            "es": "En esta siguiente pantalla, confirme que el sistema esté apagado."
+          },
           "image": "Panel.Off.Switch.CONFIRM.JPG",
-          "alt": "Panel Off Switch Confirmation"
+          "alt": {
+            "en": "Panel Off Switch Confirmation",
+            "es": "Confirmación del interruptor de apagado del panel"
+          }
         },
         {
-          "instruction": "Now, let's pull the Auditorium scrim down. Select the 'Wall Plate' option from the screen on the panel.",
+          "instruction": {
+            "en": "Now, let's pull the Auditorium scrim down. Select the 'Wall Plate' option from the screen on the panel.",
+            "es": "Ahora, bajemos la pantalla de proyección del Auditorio. Seleccione la opción 'Wall Plate' (Placa de Pared) en la pantalla del panel."
+          },
           "image": "Panel.Wallplate.JPG",
-          "alt": "Panel Wallplate Button Location"
+          "alt": {
+            "en": "Panel Wallplate Button Location",
+            "es": "Ubicación del botón Wallplate en el panel"
+          }
         },
         {
-          "instruction": "Voila! The scrim should now begin coming down in the Auditorium.",
+          "instruction": {
+            "en": "Voila! The scrim should now begin coming down in the Auditorium.",
+            "es": "¡Voilá! La pantalla de proyección ahora debería comenzar a bajar en el Auditorio."
+          },
           "video_url": "https://drive.google.com/file/d/1RRPvPFicNgeJ5kug4vsSM27T6lO8QQWB/view?usp=sharing",
-          "alt": "Video showing the scrim coming down"
+          "alt": {
+            "en": "Video showing the scrim coming down",
+            "es": "Video que muestra cómo baja la pantalla de proyección"
+          }
         },
         {
-          "instruction": "Now to control the computer connected, you must find the Auditorium Keyboard.",
+          "instruction": {
+            "en": "Now to control the computer connected, you must find the Auditorium Keyboard.",
+            "es": "Ahora, para controlar la computadora conectada, debe encontrar el teclado del Auditorio."
+          },
           "image": "Auditorium.keyboard.JPG",
-          "alt": "Auditorium Keyboard Pic"
+          "alt": {
+            "en": "Auditorium Keyboard Pic",
+            "es": "Imagen del teclado del auditorio"
+          }
         },
         {
-          "instruction": "Typically, the keyboard floats around the kitchen area of the second floor. Look for it somewhere in the following area.",
+          "instruction": {
+            "en": "Typically, the keyboard floats around the kitchen area of the second floor. Look for it somewhere in the following area.",
+            "es": "Por lo general, el teclado está en algún lugar del área de la cocina del segundo piso. Búsquelo en algún lugar de la siguiente área."
+          },
           "image": "Auditorium.keyboard.location.JPG",
-          "alt": "Auditorium Keyboard Location"
+          "alt": {
+            "en": "Auditorium Keyboard Location",
+            "es": "Ubicación del teclado del auditorio"
+          }
         }
       ]
     }
